@@ -6,9 +6,9 @@ def run_guessing_game
   input = gets.chomp
   if input == "exit"
     p "Goodbye!"
-    elsif input == random_number
+    elsif input != random_number
     p "Sorry! The computer guessed #{random_number}"
-  elsif input != random_number
+  else 
     p "You guessed the correct number!"
   end
   
