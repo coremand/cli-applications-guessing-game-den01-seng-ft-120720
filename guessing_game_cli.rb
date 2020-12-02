@@ -9,7 +9,7 @@ def run_guessing_game
     elsif input == random_number
     p "Sorry! The computer guessed #{random_number}"
   else
-    
+    p "You guessed the correct number!"
   end
   
 end
